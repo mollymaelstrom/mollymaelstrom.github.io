@@ -17,6 +17,8 @@ body {
 content {
   display: inline-block;
   width:50%;
+  margin-top: 2%;
+  border-radius: 15px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2.5%;
