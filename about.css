@@ -8,7 +8,7 @@ html {
 body {
    background-color: #FAFAFA ;
    color: #284f86 ;
-   font-family: Helvetica, sans-serif;
+   font-family: Helvetica Neue, sans-serif;
    font-weight: lighter;
    text-align: center;
    padding-top: 2.5%;
@@ -18,7 +18,6 @@ content {
   display: inline-block;
   width:50%;
   margin-top: 2%;
-  border-radius: 15px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2.5%;
@@ -27,9 +26,10 @@ content {
 
 h2  {
  color: #6b4981 ;
- font-family: Helvetica, sans-serif;
+ font-family: Helvetica Neue, sans-serif;
  font-weight: lighter;
  text-align: center;
+
 }
 
 section {
@@ -59,39 +59,26 @@ header{
 .links {
  list-style: none;
  display: inline;
- margin-right: 5%;
+ margin-right: .25%;
 }
 
 a {
  text-decoration: none;
+ font-weight: normal;
+ font-size: 12px;
  color: #6b4981 ;
  background-color: ffffff;
- border-radius: .75em;
+ /*border-radius: .75em;*/
  padding: .75em;
 }
 
 a:hover {
  color:#fff;
  background-color: #284f86 ;
- border-radius: .75em;
+ /*border-radius: .75em;*/
  padding: .75em;
 }
 
-/*a {
-text-decoration: none;
-color: #6b4981 ;
-font-size: 24px;
-margin-right: .70em;
-background-color: #ffffff ;
-border-radius: .75em;
-padding:.75em;
-}
-
-a:hover {
-color:#fff;
-background-color: #284f86  ;
-border-radius: .75em;
-padding: .75em;*/
 .external{
   background-color: transparent;
 }
@@ -106,4 +93,15 @@ padding: .75em;*/
 }
 .query{
   color: 6b4981;
+}
+nav {
+  display:block;
+  margin-top: 5%;
+  padding-top: 2.5%;
+
+}
+ul {
+  display:block;
+  text-align: right;
+
 }
