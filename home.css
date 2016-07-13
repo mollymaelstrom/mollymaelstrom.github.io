@@ -25,14 +25,6 @@ content {
   background-color: ffffff;
 }
 
-h2  {
- color: #6b4981 ;
- font-family: Helvetica Neue, sans-serif;
- font-weight: lighter;
- text-align: center;
-
-}
-
 section {
    display: inline-block;
    width:95%;
@@ -40,18 +32,6 @@ section {
    padding-right: 2.5%;
 
  }
-
- .descriptor{
-   font-style: italic;
-   font-weight: lighter;
- }
-
-.logo{
-  display:block;
-  float:left;
-margin-left: auto;
-margin-right: auto;
-}
 
 header{
   display:block;
@@ -74,11 +54,31 @@ a {
  background-color: ffffff;
  padding: .75em;
 }
-
 a:hover {
  color:#fff;
  background-color: #284f86 ;
  padding: .75em;
+}
+
+h2  {
+ color: #6b4981 ;
+ font-family: Helvetica Neue, sans-serif;
+ font-weight: lighter;
+ text-align: center;
+
+}
+
+h3 {
+  color:6b4981;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h4 {
+  color:6b4981;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: lighter;
 }
 
 .external{
@@ -90,11 +90,9 @@ a:hover {
  padding:0em;
  border-radius: 0em;
 }
-.about{
+
+.mainimage {
   max-width: 100%;
-}
-.query{
-  font-color: 6b4981;
 }
 nav {
   display:block;
@@ -103,13 +101,17 @@ nav {
   padding-top: 2.5%;
   margin-bottom: 5%;
 
-
 }
 ul {
   display:block;
   text-align: center;
 
 }
+
+footer {
+  padding: 2.5%;
+}
+
 .mainimage{
   display:inline-block;
   align-content: center;
